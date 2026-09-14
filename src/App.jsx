@@ -15,7 +15,7 @@ function App() {
       <div className="bg-black p-8">
         <h1 className="text-white text-6xl">Weather App</h1>
       </div>
-      <div className="grid grid-flow-col grid-rows-3 gap-4 justify-center m-20">
+      <div className="grid grid-flow-col grid-rows-3 gap-2 justify-center m-10">
         <input
           type="text"
           value={city}
@@ -25,7 +25,7 @@ function App() {
           />
         <button
         onClick={handleSearch}
-        className="grid-row-2 rounded-xl w-md bg-blue-800 justify-center hover:bg-sky-700"
+        className="grid-row-2 rounded-xl w-md bg-blue-800 justify-center hover:bg-sky-700 max-h-10"
         >Search</button>
         <div className="grid-row-3 justify-center">
         <WeatherDisplay />
